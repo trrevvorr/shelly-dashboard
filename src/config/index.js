@@ -1,0 +1,21 @@
+export const devices = [
+         { ip: "192.168.86.227", name: "Front Door & Entryway Lights" },
+         { ip: "192.168.86.32", name: "Kitchen & Deck" },
+         { ip: "192.168.86.67", name: "Backyard Breezeway" },
+         { ip: "192.168.86.70", name: "Basement Stairway Top" },
+         { ip: "192.168.86.151", name: "Garage & Breezeway" },
+         { ip: "192.168.86.20", name: "Basement Lights" },
+         { ip: "192.168.86.167", name: "Master Bedroom" },
+         { ip: "192.168.86.33", name: "Master Bathroom" },
+
+         { ip: "192.168.86.250", name: "Dining Room" },
+         { ip: "192.168.86.41", name: "Guest Bedroom" },
+         { ip: "192.168.86.42", name: "Hallway" },
+         { ip: "192.168.86.77", name: "Living Room" },
+         { ip: "192.168.86.40", name: "Kitchen Cab 1" },
+         { ip: "192.168.86.43", name: "Kitchen Cab 2" },
+         { ip: "192.168.86.24", name: "Kitchen Cab 3" },
+         { ip: "192.168.86.45", name: "Kitchen Cab 4" },
+         { ip: "192.168.86.248", name: "Basement Stairway Bottom" },
+         { ip: "192.168.86.27", name: "Basement Bathroom" },
+       ];

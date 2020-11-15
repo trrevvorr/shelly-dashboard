@@ -16,4 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a {
+  color: #42b983;
+}
 </style>

@@ -2,9 +2,7 @@
   <div>
     <h1>Shelly Dashboard</h1>
     <div class="devices">
-      <DeviceCard ip="192.168.86.227" />
-      <DeviceCard ip="192.168.86.77" />
-      <DeviceCard ip="192.168.86.999" />
+      <DeviceCard v-for="device in devices" :key="device.ip" :ip="device.ip" :fallbackName="device.name" />
     </div>
   </div>
 </template>
@@ -12,11 +10,16 @@
 <script>
 // @ is an alias to /src
 import DeviceCard from '@/components/DeviceCard.vue'
+import {devices} from '@/config'
 
 export default {
-  name: 'Home',
   components: {
     DeviceCard
+  },
+  data: function() {
+    return {
+      devices
+    }
   }
 }
 </script>
@@ -31,6 +34,7 @@ h1 {
   grid-gap: 1rem;
   max-width: 1200px;
   margin: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 600px) {
